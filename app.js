@@ -4,7 +4,7 @@ const app = express();
 
 app.get("/", (req, res) => {
   res.json({
-    message: "CI/CD Demo Application is running"
+    message: "CI/CD Pipeline is Working!"
   });
 });
 
